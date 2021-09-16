@@ -9,6 +9,12 @@ public class Main {
     System.out.println(myPet.isComplaining());
     System.out.println(myPet.isHungry());
 
+    Person myPerson = new Person("not George",30, "the streets", "vibes");
+    myPerson.setName("not Jorge");
+    System.out.println(myPerson.getName());
+    System.out.println(myPerson.isComplaining());
+    System.out.println(myPerson.isHungry());
+
     Calculator myTest = new Calculator(5,5);
     System.out.println(myTest.add());
     System.out.println(myTest.subtract());
